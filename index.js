@@ -226,9 +226,7 @@ function firstNamesAllCaps(runners) {
  * The runners in the array appear in the same order they appear in the `runners` array.
 */
 function getRunnersByTShirtSize(runners, tShirtSize) {
-  const tSize = runners.filter((item) => {
-    item.shirt_size === tShirtSize;
-  });
+  const tSize = runners.filter((item) => item.shirt_size === tShirtSize);
     return tSize
   }
 
